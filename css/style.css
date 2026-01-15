@@ -13,6 +13,13 @@ body {
 h1,h2,h3,h4,h5 {
     font-family: "Gugi", sans-serif;
 }
+/* 서비스 영역 */
+.card-hover:hover {
+    cursor: pointer;
+    background-color: rgb(238, 221, 221);
+}
+
+/* sns섹션 */
 #sns-bg {
     background-image: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url(../images/sns-bg.jpg);
     background-size: cover;
@@ -23,4 +30,9 @@ h1,h2,h3,h4,h5 {
     .sns2 {
         width: 50%;
     }
+}
+#News {
+     background-image: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url(../images/news-bg.jpg);
+    background-size: cover;
+    background-position: center;
 }
